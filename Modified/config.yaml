@@ -1,0 +1,33 @@
+  debug_level: 2
+  write_prediction_file: True
+
+  dt: 1e-4
+  sequence_lenght: 3
+  cell_points: 6
+
+  model_name: alpha
+  model_id: 1
+
+  model_restart: False
+  restart_path: ''
+
+  initial_epochs: 0
+
+  enable_model_save: True
+  model_save_path: /content/drive/MyDrive/Colab Notebooks/Modified
+
+  hidden_dimensions: [32, 64, 48, 24]
+
+  batch_size: 128
+
+  total_epochs: 2
+  validation_split_ratio: 0.01
+  validate_from_test_dataset: False
+
+  learning_rate: 1e-3
+  decay_epochs: 10
+  decay_rate: 0.5
+  decay_stair_case: True
+
+  test_dataset_path: /content/drive/MyDrive/Colab Notebooks/MA-Aanand-Turbulence-master/train/21_timesteps
+  train_dataset_path: /content/drive/MyDrive/Colab Notebooks/MA-Aanand-Turbulence-master/train/21_timesteps
